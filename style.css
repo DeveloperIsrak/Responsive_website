@@ -60,6 +60,59 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* header css finished */
+
+/* service section css start */
+.first_section{
+    background-color: #16213e;
+}
+.service_title{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.service_parent{
+    width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    padding: 50px 0;
+}
+.service_parent_single{
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 7px 5px 5px 5px rgb(0, 0, 0);
+}
+.service_parent_single i{
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid black;
+    line-height: 35px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+.service_parent_single h2{
+    color: #d35400;
+}
+.service_parent_single p{
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
 /* responsive css start */
 
 @media screen and (max-width : 940px) {
@@ -100,4 +153,22 @@ header{
         color: red;
     }
     
+}
+/* first section service responsive css start */
+
+@media only screen and (max-width: 688px) {
+    .service_parent{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        width: 80%;
+    }
+}
+@media screen and (min-width : 689px) and (max-width: 1099px) {
+    .service_parent{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        width: 80%;
+    }
 }
