@@ -374,6 +374,32 @@ header{
 .unmach_div:nth-child(2){
     border: 4px solid #ffffff ;
 }
+/* take care code css start */
+.take_care{
+    padding: 50px 0;
+}
+.take_care_parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.take_care_left_content h2{
+    font-size: 25px;
+}
+.take_care_left_content p{
+    margin: 20px 0;
+}
+.take_care_left_content ul li{
+    list-style: outside;
+    margin: 10px 0px 0px 20px;
+    font-weight: 600;
+}
+.take_care_right_imgs img{
+    width: 550px;
+    height: auto;
+}
 
 
 
@@ -549,7 +575,32 @@ header{
 
     /* unmach responcive css finished */
 
-     
+    /* take care responcive css start */
+
+    .take_care_parent{
+        display: block;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .take_care_right_imgs img{
+        width: 350px;
+        height: auto;
+    }
+
+
+    /* take care responcive css finished */
+
+ 
+    
+
+
+
+
+
+
+
+
+
 }
 @media screen and (min-width : 689px) and (max-width: 1099px) {
     .service_parent{
@@ -661,6 +712,19 @@ header{
         gap: 20px;
         color: white;
     }
+    /* take care res css start */
+
+    .take_care_parent{
+        display: block;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .take_care_right_imgs img{
+        width: 400px;
+        height: auto;
+    }
+
+    /* take care res css finished */
 
 }
 
