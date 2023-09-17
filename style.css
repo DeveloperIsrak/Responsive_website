@@ -153,6 +153,149 @@ header{
 
 /* smart and second area css finished */
 
+/* third or about section css start */
+
+.third_section{
+    background-image: url(./images/building.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+.about_parent{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    align-items: center;
+    gap: 30px;
+}
+.about_left_text h3{
+    font-size: 25px;
+    margin: 20px 0;
+}
+.about_left_text p{
+    font-size: 15px;
+    margin: 20px 0;
+}
+.about_left_text ul li{
+    font-size: 15px;
+    margin: 7px 0;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.about_left_text button{
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 10px 30px;
+    color: black;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.about_left_right_parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.about_left_right_parent_single{
+    padding: 40px 10px;
+    background-color: rgb(238, 230, 230);
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+.about_left_right_parent_single h4{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.about_left_right_parent_single p{
+    font-size: 13px;
+}
+
+/* third or about section css finished */
+
+/* advice section css start */
+#advise_sec{
+    background-color: #091a49;
+    padding: 50px 0;
+}
+.advice_sec_parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+    color: white;
+}
+.advice_left_content_img img{
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+.advice_left_content h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.advice_left_content p{
+    font-size: 14px;
+    margin: 15px 0;
+}
+.icon_parent{
+    margin: 30px 0;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.icon_parent i{
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: rgb(129, 158, 148);
+    color: black;
+    border-radius: 20px;
+}
+.advice_right_content h2{
+    font-size: 30px;
+    margin: 0px 0px 30px 0px;
+}
+.advice_right_content hr{
+    margin: 30px 0;
+    width: 500px;
+    height: 3px;
+    background-color: red;
+    border: none;
+}
+.advice_right_content button{
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 10px 30px;
+    color: black;
+    background-color: rgb(129, 158, 148);
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -222,6 +365,65 @@ header{
         margin-top: 30px;
         color: white;
     }
+     /* smart or second section responsive finished */ 
+
+     /* about section responsive css start */
+
+     .third_section{
+        background-image: url(./images/building.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 0;
+    }
+    .about_parent{
+        display: block;
+        margin-left: 50px;
+        margin-right: 50px;
+        color: white;
+        align-items: center;
+        gap: 20px;
+    }
+    .about_left_text{
+        margin-bottom: 20px;
+    }
+    .about_left_right_parent{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+
+     /* about section responsive css finished */
+
+     /* advice section responcive css start */
+
+     .advice_sec_parent{
+        display: block;
+        gap: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        color: white;
+    }
+    .advice_left_content_img img{
+        width: 300px;
+        height: auto;
+        border-radius: 5px;
+    }
+    .advice_right_content hr{
+        margin: 30px 0;
+        width: 300px;
+        height: 3px;
+        background-color: red;
+        border: none;
+    }
+    .advice_right_content p{
+        font-size: 13px;
+        width: 400px;
+    }
+
+    /* advice section responcive css finished */
+
+     
 }
 @media screen and (min-width : 689px) and (max-width: 1099px) {
     .service_parent{
@@ -244,6 +446,52 @@ header{
         margin-top: 30px;
         color: white;
     }
+    /* smart or second section responsive finished */
+
+    /* about section responsive css start */
+
+    .third_section{
+        background-image: url(./images/building.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 0;
+    }
+    .about_parent{
+        display: block;
+        margin-left: 70px;
+        margin-right: 70px;
+        color: white;
+        align-items: center;
+        gap: 25px;
+    }
+    .about_left_text{
+        margin-bottom: 20px;
+    }
+    .about_left_right_parent{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+     /* about section responsive css finished */
+
+     /* advise section responce css start  */
+
+     .advice_sec_parent{
+        display: block;
+        gap: 20px;
+        margin-left: 70px;
+        margin-right: 70px;
+        color: white;
+    }
+    .advice_left_content_img img{
+        width: 300px;
+        height: auto;
+        border-radius: 5px;
+    }
+
+     /* advise section responce css finished  */
 }
 
 
